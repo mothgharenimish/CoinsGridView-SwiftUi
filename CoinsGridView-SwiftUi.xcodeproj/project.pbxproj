@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		061772622D86ED3D00DF157B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 061772492D86ED3A00DF157B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 061772502D86ED3A00DF157B;
+			remoteInfo = "CoinsGridView-SwiftUi";
+		};
+		0617726C2D86ED3D00DF157B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 061772492D86ED3A00DF157B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 061772502D86ED3A00DF157B;
+			remoteInfo = "CoinsGridView-SwiftUi";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		061772512D86ED3A00DF157B /* CoinsGridView-SwiftUi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CoinsGridView-SwiftUi.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		061772612D86ED3D00DF157B /* CoinsGridView-SwiftUiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CoinsGridView-SwiftUiTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0617726B2D86ED3D00DF157B /* CoinsGridView-SwiftUiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CoinsGridView-SwiftUiUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		061772532D86ED3A00DF157B /* CoinsGridView-SwiftUi */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "CoinsGridView-SwiftUi";
+			sourceTree = "<group>";
+		};
+		061772642D86ED3D00DF157B /* CoinsGridView-SwiftUiTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "CoinsGridView-SwiftUiTests";
+			sourceTree = "<group>";
+		};
+		0617726E2D86ED3D00DF157B /* CoinsGridView-SwiftUiUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "CoinsGridView-SwiftUiUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0617724E2D86ED3A00DF157B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0617725E2D86ED3D00DF157B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		061772682D86ED3D00DF157B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		061772482D86ED3A00DF157B = {
+			isa = PBXGroup;
+			children = (
+				061772532D86ED3A00DF157B /* CoinsGridView-SwiftUi */,
+				061772642D86ED3D00DF157B /* CoinsGridView-SwiftUiTests */,
+				0617726E2D86ED3D00DF157B /* CoinsGridView-SwiftUiUITests */,
+				061772522D86ED3A00DF157B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		061772522D86ED3A00DF157B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				061772512D86ED3A00DF157B /* CoinsGridView-SwiftUi.app */,
+				061772612D86ED3D00DF157B /* CoinsGridView-SwiftUiTests.xctest */,
+				0617726B2D86ED3D00DF157B /* CoinsGridView-SwiftUiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		061772502D86ED3A00DF157B /* CoinsGridView-SwiftUi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 061772752D86ED3D00DF157B /* Build configuration list for PBXNativeTarget "CoinsGridView-SwiftUi" */;
+			buildPhases = (
+				0617724D2D86ED3A00DF157B /* Sources */,
+				0617724E2D86ED3A00DF157B /* Frameworks */,
+				0617724F2D86ED3A00DF157B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				061772532D86ED3A00DF157B /* CoinsGridView-SwiftUi */,
+			);
+			name = "CoinsGridView-SwiftUi";
+			packageProductDependencies = (
+			);
+			productName = "CoinsGridView-SwiftUi";
+			productReference = 061772512D86ED3A00DF157B /* CoinsGridView-SwiftUi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		061772602D86ED3D00DF157B /* CoinsGridView-SwiftUiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 061772782D86ED3D00DF157B /* Build configuration list for PBXNativeTarget "CoinsGridView-SwiftUiTests" */;
+			buildPhases = (
+				0617725D2D86ED3D00DF157B /* Sources */,
+				0617725E2D86ED3D00DF157B /* Frameworks */,
+				0617725F2D86ED3D00DF157B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				061772632D86ED3D00DF157B /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				061772642D86ED3D00DF157B /* CoinsGridView-SwiftUiTests */,
+			);
+			name = "CoinsGridView-SwiftUiTests";
+			packageProductDependencies = (
+			);
+			productName = "CoinsGridView-SwiftUiTests";
+			productReference = 061772612D86ED3D00DF157B /* CoinsGridView-SwiftUiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0617726A2D86ED3D00DF157B /* CoinsGridView-SwiftUiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0617727B2D86ED3D00DF157B /* Build configuration list for PBXNativeTarget "CoinsGridView-SwiftUiUITests" */;
+			buildPhases = (
+				061772672D86ED3D00DF157B /* Sources */,
+				061772682D86ED3D00DF157B /* Frameworks */,
+				061772692D86ED3D00DF157B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0617726D2D86ED3D00DF157B /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				0617726E2D86ED3D00DF157B /* CoinsGridView-SwiftUiUITests */,
+			);
+			name = "CoinsGridView-SwiftUiUITests";
+			packageProductDependencies = (
+			);
+			productName = "CoinsGridView-SwiftUiUITests";
+			productReference = 0617726B2D86ED3D00DF157B /* CoinsGridView-SwiftUiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		061772492D86ED3A00DF157B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					061772502D86ED3A00DF157B = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					061772602D86ED3D00DF157B = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 061772502D86ED3A00DF157B;
+					};
+					0617726A2D86ED3D00DF157B = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 061772502D86ED3A00DF157B;
+					};
+				};
+			};
+			buildConfigurationList = 0617724C2D86ED3A00DF157B /* Build configuration list for PBXProject "CoinsGridView-SwiftUi" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 061772482D86ED3A00DF157B;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 061772522D86ED3A00DF157B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				061772502D86ED3A00DF157B /* CoinsGridView-SwiftUi */,
+				061772602D86ED3D00DF157B /* CoinsGridView-SwiftUiTests */,
+				0617726A2D86ED3D00DF157B /* CoinsGridView-SwiftUiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0617724F2D86ED3A00DF157B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0617725F2D86ED3D00DF157B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		061772692D86ED3D00DF157B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0617724D2D86ED3A00DF157B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0617725D2D86ED3D00DF157B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		061772672D86ED3D00DF157B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		061772632D86ED3D00DF157B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 061772502D86ED3A00DF157B /* CoinsGridView-SwiftUi */;
+			targetProxy = 061772622D86ED3D00DF157B /* PBXContainerItemProxy */;
+		};
+		0617726D2D86ED3D00DF157B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 061772502D86ED3A00DF157B /* CoinsGridView-SwiftUi */;
+			targetProxy = 0617726C2D86ED3D00DF157B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		061772732D86ED3D00DF157B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		061772742D86ED3D00DF157B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		061772762D86ED3D00DF157B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CoinsGridView-SwiftUi/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nimishmothghare.CoinsGridView-SwiftUi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		061772772D86ED3D00DF157B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CoinsGridView-SwiftUi/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nimishmothghare.CoinsGridView-SwiftUi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		061772792D86ED3D00DF157B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nimishmothghare.CoinsGridView-SwiftUiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoinsGridView-SwiftUi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CoinsGridView-SwiftUi";
+			};
+			name = Debug;
+		};
+		0617727A2D86ED3D00DF157B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nimishmothghare.CoinsGridView-SwiftUiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoinsGridView-SwiftUi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CoinsGridView-SwiftUi";
+			};
+			name = Release;
+		};
+		0617727C2D86ED3D00DF157B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nimishmothghare.CoinsGridView-SwiftUiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "CoinsGridView-SwiftUi";
+			};
+			name = Debug;
+		};
+		0617727D2D86ED3D00DF157B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nimishmothghare.CoinsGridView-SwiftUiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "CoinsGridView-SwiftUi";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0617724C2D86ED3A00DF157B /* Build configuration list for PBXProject "CoinsGridView-SwiftUi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				061772732D86ED3D00DF157B /* Debug */,
+				061772742D86ED3D00DF157B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		061772752D86ED3D00DF157B /* Build configuration list for PBXNativeTarget "CoinsGridView-SwiftUi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				061772762D86ED3D00DF157B /* Debug */,
+				061772772D86ED3D00DF157B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		061772782D86ED3D00DF157B /* Build configuration list for PBXNativeTarget "CoinsGridView-SwiftUiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				061772792D86ED3D00DF157B /* Debug */,
+				0617727A2D86ED3D00DF157B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0617727B2D86ED3D00DF157B /* Build configuration list for PBXNativeTarget "CoinsGridView-SwiftUiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0617727C2D86ED3D00DF157B /* Debug */,
+				0617727D2D86ED3D00DF157B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 061772492D86ED3A00DF157B /* Project object */;
+}
