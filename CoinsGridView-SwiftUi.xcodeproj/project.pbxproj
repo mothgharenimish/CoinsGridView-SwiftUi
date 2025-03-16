@@ -29,9 +29,26 @@
 		0617726B2D86ED3D00DF157B /* CoinsGridView-SwiftUiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CoinsGridView-SwiftUiUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+		061772922D87401400DF157B /* Exceptions for "CoinsGridView-SwiftUi" folder in "Compile Sources" phase from "CoinsGridView-SwiftUi" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = 0617724D2D86ED3A00DF157B /* Sources */;
+			membershipExceptions = (
+				"Fonts/SpaceGrotesk-Bold.ttf",
+				"Fonts/SpaceGrotesk-Light.ttf",
+				"Fonts/SpaceGrotesk-Medium.ttf",
+				"Fonts/SpaceGrotesk-Regular.ttf",
+				"Fonts/SpaceGrotesk-SemiBold.ttf",
+			);
+		};
+/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		061772532D86ED3A00DF157B /* CoinsGridView-SwiftUi */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				061772922D87401400DF157B /* Exceptions for "CoinsGridView-SwiftUi" folder in "Compile Sources" phase from "CoinsGridView-SwiftUi" target */,
+			);
 			path = "CoinsGridView-SwiftUi";
 			sourceTree = "<group>";
 		};
