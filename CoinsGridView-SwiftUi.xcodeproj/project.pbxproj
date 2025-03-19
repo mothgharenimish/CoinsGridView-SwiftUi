@@ -34,6 +34,7 @@
 			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
 			buildPhase = 0617724D2D86ED3A00DF157B /* Sources */;
 			membershipExceptions = (
+				"Fonts/Poppins-Black.ttf",
 				"Fonts/SpaceGrotesk-Bold.ttf",
 				"Fonts/SpaceGrotesk-Light.ttf",
 				"Fonts/SpaceGrotesk-Medium.ttf",

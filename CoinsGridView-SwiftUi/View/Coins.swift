@@ -8,8 +8,33 @@
 import SwiftUI
 
 struct Coins: View {
+    private let adapativeColumns = [
+        
+        GridItem(.adaptive(minimum: 170))
+    ]
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        
+        NavigationView {
+            
+            ScrollView {
+                
+                LazyVGrid(columns: adapativeColumns, spacing: 20) {
+                    
+                    ForEach(coins) { co in
+                        
+                        CoinsGrid(coins: co)
+                        
+                        
+                    }
+                }
+                
+                
+            }
+            .navigationTitle("Coins")
+        }
+        .navigationBarBackButtonHidden(true)
+
+        
     }
 }
 
